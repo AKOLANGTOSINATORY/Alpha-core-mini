@@ -10,7 +10,7 @@ app.get("/message", (req, res) => {
 // Endpoint for Roblox to fetch messages
 app.get("/", (req, res) => {
     const whitelistData = [
-        { username: "SeintSlavx",gameCreatorId: "85114581522", WhitelistEnabled: true, Suspended: false },
+        { username: "SeintSlavx",gameCreatorId: "851145815", WhitelistEnabled: true, Suspended: false },
 
     ];
     res.json(whitelistData); // Return the whitelist with the enabled and suspended status for each user
