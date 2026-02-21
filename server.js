@@ -11,6 +11,7 @@ app.get("/message", (req, res) => {
 app.get("/", (req, res) => {
     const whitelistData = [
         { username: "SeintSlavx",gameCreatorId: "851145815", WhitelistEnabled: true, Suspended: false },
+        { username: "| USDF | United States Defense Forces",gameCreatorId: "34814858", WhitelistEnabled: true, Suspended: false },
 
     ];
     res.json(whitelistData); // Return the whitelist with the enabled and suspended status for each user
