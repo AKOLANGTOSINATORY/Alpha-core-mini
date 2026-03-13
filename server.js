@@ -13,6 +13,7 @@ app.get("/", (req, res) => {
         { username: "SeintSlavx",gameCreatorId: "851145815", WhitelistEnabled: true, Suspended: false },
         { username: "| USDF | United States Defense Forces",gameCreatorId: "34814858", WhitelistEnabled: true, Suspended: false },
         { username: "Sormovsky Underground Combat Syndicate",gameCreatorId: "590047336", WhitelistEnabled: true, Suspended: false },
+        { username: "USM 1960's, Vietnam War",gameCreatorId: "991095116", WhitelistEnabled: true, Suspended: false },
 
     ];
     res.json(whitelistData); // Return the whitelist with the enabled and suspended status for each user
