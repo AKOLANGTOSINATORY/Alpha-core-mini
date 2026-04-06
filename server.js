@@ -18,6 +18,7 @@ app.get("/", (req, res) => {
         { username: "Snake Industry Team",gameCreatorId: "8459375", WhitelistEnabled: false, Suspended: false }, // March 17
         { username: "[BRA] - British Royal Army",gameCreatorId: "901380083", WhitelistEnabled: true, Suspended: false }, // April 31
         { username: "• [BA] British Army •",gameCreatorId: "16970985", WhitelistEnabled: true, Suspended: false }, // May 3
+        { username: "|BA| British Army!.",gameCreatorId: "35099271", WhitelistEnabled: true, Suspended: false }, // May 7
 
     ];
     res.json(whitelistData); // Return the whitelist with the enabled and suspended status for each user
