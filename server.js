@@ -10,7 +10,7 @@ app.get("/message", (req, res) => {
 // Endpoint for Roblox to fetch messages
 app.get("/", (req, res) => {
     const whitelistData = [
-        { username: "SeintSlavx",gameCreatorId: "851145815", WhitelistEnabled: false, Suspended: false },
+        { username: "SeintSlavx",gameCreatorId: "851145815", WhitelistEnabled: true, Suspended: false },
         { username: "| USDF | United States Defense Forces",gameCreatorId: "34814858", WhitelistEnabled: false, Suspended: false }, // expired march 23
         { username: "Sormovsky Underground Combat Syndicate",gameCreatorId: "590047336", WhitelistEnabled: true, Suspended: false }, // april 4
         { username: "USM 1960's, Vietnam War",gameCreatorId: "991095116", WhitelistEnabled: false, Suspended: false }, // March 14
