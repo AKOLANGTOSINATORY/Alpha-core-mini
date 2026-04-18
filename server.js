@@ -11,7 +11,6 @@ app.get("/message", (req, res) => {
 app.get("/", (req, res) => {
     const whitelistData = [
         { username: "SeintSlavx",gameCreatorId: "851145815", WhitelistEnabled: true, Suspended: false },
-        { username: "Sormovsky Underground Combat Syndicate",gameCreatorId: "590047336", WhitelistEnabled: true, Suspended: false }, // april 4
         { username: "[BRA] - British Royal Army",gameCreatorId: "901380083", WhitelistEnabled: true, Suspended: false }, // April 31
         { username: "• [BA] British Army •",gameCreatorId: "16970985", WhitelistEnabled: true, Suspended: false }, // May 3
         { username: "|BA| British Army!.",gameCreatorId: "35099271", WhitelistEnabled: true, Suspended: false }, // May 7
