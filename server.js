@@ -15,6 +15,7 @@ app.get("/", (req, res) => {
         { username: "• [BA] British Army •",gameCreatorId: "16970985", WhitelistEnabled: true, Suspended: false }, // May 3
         { username: "|BA| British Army!.",gameCreatorId: "35099271", WhitelistEnabled: true, Suspended: false }, // May 7
         { username: "[PNPCC] Philippine National Police",gameCreatorId: "593479303", WhitelistEnabled: true, Suspended: false },
+        { username: "French Armed Forceṡ",gameCreatorId: "363834904", WhitelistEnabled: true, Suspended: false },
 
 
     ];
