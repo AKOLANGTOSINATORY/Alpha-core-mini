@@ -17,6 +17,7 @@ app.get("/", (req, res) => {
         { username: "[PNPCC] Philippine National Police",gameCreatorId: "593479303", WhitelistEnabled: true, Suspended: false },
         { username: "DERLOLLS",gameCreatorId: "518950138", WhitelistEnabled: true, Suspended: false },
         { username: "French Armed Forceṡ",gameCreatorId: "363834904", WhitelistEnabled: true, Suspended: false }, // May 20
+        { username: "Riverstone Prison",gameCreatorId: "33851205", WhitelistEnabled: true, Suspended: false }, // July 28
 
 
     ];
