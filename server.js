@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
         { username: "Florenta State Prison",gameCreatorId: "955353315", WhitelistEnabled: true, Suspended: false }, // june 8
         { username: "|| British Army",gameCreatorId: "704324852", WhitelistEnabled: true, Suspended: false }, // june 25
         { username: "|SBA| Skad's British Army",gameCreatorId: "32540278", WhitelistEnabled: true, Suspended: false }, // JUNE 26
-        { username: "|СA| Canadian Army",gameCreatorId: "144649153", WhitelistEnabled: true, Suspended: false },
+        { username: "|СA| Canadian Army",gameCreatorId: "144649153", WhitelistEnabled: true, Suspended: false }, // June 30
 
     ];
     res.json(whitelistData); // Return the whitelist with the enabled and suspended status for each user
