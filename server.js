@@ -17,6 +17,7 @@ app.get("/", (req, res) => {
         { username: "|| British Army",gameCreatorId: "704324852", WhitelistEnabled: true, Suspended: false }, // june 25
         { username: "|SBA| Skad's British Army",gameCreatorId: "32540278", WhitelistEnabled: true, Suspended: false }, // JUNE 26
         { username: "|СA| Canadian Army",gameCreatorId: "144649153", WhitelistEnabled: true, Suspended: false }, // June 30
+        { username: "BARP | British Army Roleplay",gameCreatorId: "1087800622", WhitelistEnabled: true, Suspended: false }, // July 9
 
     ];
     res.json(whitelistData); // Return the whitelist with the enabled and suspended status for each user
